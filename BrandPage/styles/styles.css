@@ -1,0 +1,121 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 72px;
+  padding: 0 85px;
+}
+
+.navbar .navbar-brand img {
+  width: 76px;
+  height: 42.75px;
+}
+
+.navbar .btn {
+  width: 75px;
+  height: 31px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.navbar-nav{
+    font-weight: 600;
+}
+
+.container {
+  position: relative;
+  width: 1125px;
+  height: 613px;
+  margin-top: 152px;
+}
+
+#bbs {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  top: -70px;
+}
+
+#bbs h1 {
+  width: 595px;
+  height: 306px;
+  text-align: left;
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+#bbs p {
+  width: 404px;
+  font-weight: 600;
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5a5959;
+  margin-bottom: 0px;
+}
+
+#bbs section {
+  width: 331px;
+  height: 41px;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+#bbs .btn {
+  padding: 6px 16px;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+button.btn.btn-danger.btn-lg.mr-2.rounded-0{
+  width: 150px;
+  margin-right: 0%;
+}
+
+#bbs .btn-outline-secondary {
+  border: 1px solid #000000;
+  color: #5a5959;
+}
+
+#bbs .bs {
+  width: 131px;
+  height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5a5959;
+}
+
+#bbs img.marketplace-logo {
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+}
+
+.pclass {
+  font-family: 'poppins';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+}
+
+#newbb {
+  top: -30px;
+  left: 70px;
+}
+
+#newbb img {
+  width: 530px;
+  height: auto;
+  filter: drop-shadow(32px 32px 24px rgba(0, 0, 0, 0.3));
+}
